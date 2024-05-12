@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      /* Style for demonstration purposes */
+      table,
+      th,
+      td {
+        border: 10px solid #915096;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+    </style>
+
+    <table>
+      <tr>
+        <th>Outer Table Header 1</th>
+        <th>Outer Table Header 2</th>
+      </tr>
+      <tr>
+        <td>
+          <!-- Inner table -->
+          <table>
+            <tr>
+              <th>Inner Table Header 1</th>
+              <th>Inner Table Header 2</th>
+            </tr>
+            <tr>
+              <td>Inner Table Data 1</td>
+              <td>Inner Table Data 2</td>
+            </tr>
+          </table>
+        </td>
+        <td>Outer Table Data</td>
+      </tr>
+    </table>
+  </body>
+</html>
