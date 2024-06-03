@@ -20,6 +20,7 @@
 
     ```html
     <body>
+        <!-- Rest of code -->
         <script src="index.js"></script>
     </body>
     ```
@@ -108,5 +109,8 @@ Use classList, property of dom object
     document.querySelector("a").setAttribute("href", "https://www.google.com");
     ```
 
+- class are also html attribute
+
 <br>
 
+### Adding EventListener
